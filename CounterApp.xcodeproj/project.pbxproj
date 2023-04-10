@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9343A0129DE9D06007D7C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A0029DE9D06007D7C86 /* AppDelegate.swift */; };
+		E9343A0329DE9D06007D7C86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A0229DE9D06007D7C86 /* SceneDelegate.swift */; };
+		E9343A0529DE9D06007D7C86 /* CreateCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A0429DE9D06007D7C86 /* CreateCounterViewController.swift */; };
+		E9343A0829DE9D06007D7C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9343A0629DE9D06007D7C86 /* Main.storyboard */; };
+		E9343A0A29DE9D07007D7C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9343A0929DE9D07007D7C86 /* Assets.xcassets */; };
+		E9343A0D29DE9D07007D7C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9343A0B29DE9D07007D7C86 /* LaunchScreen.storyboard */; };
+		E9343A1729DE9E05007D7C86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A1629DE9E05007D7C86 /* Constants.swift */; };
+		E9343A1B29DE9E70007D7C86 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A1A29DE9E70007D7C86 /* CounterModel.swift */; };
+		E9343A1E29DE9EAA007D7C86 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E9343A1D29DE9EAA007D7C86 /* Realm */; };
+		E9343A2029DE9EAA007D7C86 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9343A1F29DE9EAA007D7C86 /* RealmSwift */; };
+		E9343A2229DE9FAA007D7C86 /* FactoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2129DE9FAA007D7C86 /* FactoryStorage.swift */; };
+		E9343A2529DEA052007D7C86 /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2429DEA052007D7C86 /* Notification+Extension.swift */; };
+		E9343A2829DEC3AE007D7C86 /* CountersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2729DEC3AE007D7C86 /* CountersTableViewController.swift */; };
+		E9343A2A29DEC7C4007D7C86 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2929DEC7C4007D7C86 /* CounterViewController.swift */; };
+		E9343A2C29DECCDA007D7C86 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2B29DECCDA007D7C86 /* LoadingView.swift */; };
+		E9343A3029DECD22007D7C86 /* CountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9343A2F29DECD22007D7C86 /* CountButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E93439FD29DE9D06007D7C86 /* CounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9343A0029DE9D06007D7C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9343A0229DE9D06007D7C86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9343A0429DE9D06007D7C86 /* CreateCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCounterViewController.swift; sourceTree = "<group>"; };
+		E9343A0729DE9D06007D7C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9343A0929DE9D07007D7C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9343A0C29DE9D07007D7C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9343A0E29DE9D07007D7C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9343A1629DE9E05007D7C86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9343A1A29DE9E70007D7C86 /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
+		E9343A2129DE9FAA007D7C86 /* FactoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryStorage.swift; sourceTree = "<group>"; };
+		E9343A2429DEA052007D7C86 /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		E9343A2729DEC3AE007D7C86 /* CountersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountersTableViewController.swift; sourceTree = "<group>"; };
+		E9343A2929DEC7C4007D7C86 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		E9343A2B29DECCDA007D7C86 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E9343A2F29DECD22007D7C86 /* CountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93439FA29DE9D06007D7C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9343A2029DE9EAA007D7C86 /* RealmSwift in Frameworks */,
+				E9343A1E29DE9EAA007D7C86 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93439F429DE9D06007D7C86 = {
+			isa = PBXGroup;
+			children = (
+				E93439FF29DE9D06007D7C86 /* CounterApp */,
+				E93439FE29DE9D06007D7C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E93439FE29DE9D06007D7C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93439FD29DE9D06007D7C86 /* CounterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93439FF29DE9D06007D7C86 /* CounterApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A1429DE9DE3007D7C86 /* Models */,
+				E9343A2D29DECCDF007D7C86 /* Views */,
+				E9343A1529DE9DEB007D7C86 /* Utils */,
+				E9343A2329DEA044007D7C86 /* Extensions */,
+				E9343A1829DE9E57007D7C86 /* Manager */,
+				E9343A2629DEC394007D7C86 /* ViewControllers */,
+				E9343A2E29DECCE8007D7C86 /* Storyboards */,
+				E9343A0029DE9D06007D7C86 /* AppDelegate.swift */,
+				E9343A0229DE9D06007D7C86 /* SceneDelegate.swift */,
+				E9343A0929DE9D07007D7C86 /* Assets.xcassets */,
+				E9343A0E29DE9D07007D7C86 /* Info.plist */,
+			);
+			path = CounterApp;
+			sourceTree = "<group>";
+		};
+		E9343A1429DE9DE3007D7C86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A1A29DE9E70007D7C86 /* CounterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9343A1529DE9DEB007D7C86 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A1629DE9E05007D7C86 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9343A1829DE9E57007D7C86 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A2129DE9FAA007D7C86 /* FactoryStorage.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E9343A2329DEA044007D7C86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A2429DEA052007D7C86 /* Notification+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9343A2629DEC394007D7C86 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A0429DE9D06007D7C86 /* CreateCounterViewController.swift */,
+				E9343A2729DEC3AE007D7C86 /* CountersTableViewController.swift */,
+				E9343A2929DEC7C4007D7C86 /* CounterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9343A2D29DECCDF007D7C86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A2B29DECCDA007D7C86 /* LoadingView.swift */,
+				E9343A2F29DECD22007D7C86 /* CountButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9343A2E29DECCE8007D7C86 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9343A0629DE9D06007D7C86 /* Main.storyboard */,
+				E9343A0B29DE9D07007D7C86 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93439FC29DE9D06007D7C86 /* CounterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9343A1129DE9D07007D7C86 /* Build configuration list for PBXNativeTarget "CounterApp" */;
+			buildPhases = (
+				E93439F929DE9D06007D7C86 /* Sources */,
+				E93439FA29DE9D06007D7C86 /* Frameworks */,
+				E93439FB29DE9D06007D7C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CounterApp;
+			packageProductDependencies = (
+				E9343A1D29DE9EAA007D7C86 /* Realm */,
+				E9343A1F29DE9EAA007D7C86 /* RealmSwift */,
+			);
+			productName = CounterApp;
+			productReference = E93439FD29DE9D06007D7C86 /* CounterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93439F529DE9D06007D7C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E93439FC29DE9D06007D7C86 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E93439F829DE9D06007D7C86 /* Build configuration list for PBXProject "CounterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E93439F429DE9D06007D7C86;
+			packageReferences = (
+				E9343A1C29DE9EAA007D7C86 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = E93439FE29DE9D06007D7C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93439FC29DE9D06007D7C86 /* CounterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93439FB29DE9D06007D7C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9343A0D29DE9D07007D7C86 /* LaunchScreen.storyboard in Resources */,
+				E9343A0A29DE9D07007D7C86 /* Assets.xcassets in Resources */,
+				E9343A0829DE9D06007D7C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93439F929DE9D06007D7C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9343A2229DE9FAA007D7C86 /* FactoryStorage.swift in Sources */,
+				E9343A0529DE9D06007D7C86 /* CreateCounterViewController.swift in Sources */,
+				E9343A2829DEC3AE007D7C86 /* CountersTableViewController.swift in Sources */,
+				E9343A3029DECD22007D7C86 /* CountButton.swift in Sources */,
+				E9343A2C29DECCDA007D7C86 /* LoadingView.swift in Sources */,
+				E9343A2A29DEC7C4007D7C86 /* CounterViewController.swift in Sources */,
+				E9343A0129DE9D06007D7C86 /* AppDelegate.swift in Sources */,
+				E9343A1B29DE9E70007D7C86 /* CounterModel.swift in Sources */,
+				E9343A2529DEA052007D7C86 /* Notification+Extension.swift in Sources */,
+				E9343A0329DE9D06007D7C86 /* SceneDelegate.swift in Sources */,
+				E9343A1729DE9E05007D7C86 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9343A0629DE9D06007D7C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9343A0729DE9D06007D7C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9343A0B29DE9D07007D7C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9343A0C29DE9D07007D7C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9343A0F29DE9D07007D7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9343A1029DE9D07007D7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9343A1229DE9D07007D7C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JZW9GTFBSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Counter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavel.CounterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9343A1329DE9D07007D7C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JZW9GTFBSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Counter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavel.CounterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93439F829DE9D06007D7C86 /* Build configuration list for PBXProject "CounterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9343A0F29DE9D07007D7C86 /* Debug */,
+				E9343A1029DE9D07007D7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9343A1129DE9D07007D7C86 /* Build configuration list for PBXNativeTarget "CounterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9343A1229DE9D07007D7C86 /* Debug */,
+				E9343A1329DE9D07007D7C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9343A1C29DE9EAA007D7C86 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9343A1D29DE9EAA007D7C86 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9343A1C29DE9EAA007D7C86 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E9343A1F29DE9EAA007D7C86 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9343A1C29DE9EAA007D7C86 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E93439F529DE9D06007D7C86 /* Project object */;
+}
